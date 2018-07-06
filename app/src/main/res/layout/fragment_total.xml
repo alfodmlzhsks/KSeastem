@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="cheonTotal"
+            type="com.gugu.wegolsu.k_seastem.fragment.CheonFragment" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_width="match_parent">
+
+            <ToggleButton
+                android:background="@drawable/zosaspinner"
+                android:id="@+id/toggleTotal"
+                android:layout_height="70dp"
+                android:layout_width="170dp"
+                android:textOff="생산량(M/T)"
+                android:textOn="생산금액(천원)" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_width="0dp">
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_width="0dp">
+
+                    <TextView
+                        android:background="@drawable/totaltitle"
+                        android:gravity="center"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:text="활어"
+                        android:textColor="#ff205a63"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_width="0dp">
+
+                    <TextView
+                        android:background="@drawable/totaltitle"
+                        android:gravity="center"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:text="선어"
+                        android:textColor="#ff205a63"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_width="0dp">
+
+                    <TextView
+                        android:background="@drawable/totaltitle"
+                        android:gravity="center"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:text="냉동/  냉장"
+                        android:textColor="#ff205a63"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_width="0dp">
+
+                    <TextView
+                        android:background="#ff84a1a6"
+                        android:gravity="center"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:text="합계"
+                        android:textColor="#ffffffff"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent">
+
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_width="0dp">
+
+                    <TextView
+                        android:background="@drawable/totaltitle"
+                        android:gravity="center"
+                        android:id="@+id/tvTotalYear1"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_width="0dp">
+
+                    <TextView
+                        android:gravity="center"
+                        android:id="@+id/tvTotalLive1"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:textSize="10dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_width="0dp">
+
+                    <TextView
+                        android:gravity="center"
+                        android:id="@+id/tvTotalDead1"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:textSize="10dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_width="0dp">
+
+                    <TextView
+                        android:gravity="center"
+                        android:id="@+id/tvTotalIce1"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:textSize="10dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_width="0dp">
+
+                    <TextView
+                        android:background="#0a85a2a7"
+                        android:gravity="center"
+                        android:id="@+id/tvTotal1"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:textSize="10dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent">
+
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_width="0dp">
+
+                    <TextView
+                        android:background="@drawable/totaltitle"
+                        android:gravity="center"
+                        android:id="@+id/tvTotalYear2"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_width="0dp">
+
+                    <TextView
+                        android:gravity="center"
+                        android:id="@+id/tvTotalLive2"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:textSize="10dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_width="0dp">
+
+                    <TextView
+                        android:gravity="center"
+                        android:id="@+id/tvTotalDead2"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:textSize="10dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_width="0dp">
+
+                    <TextView
+                        android:gravity="center"
+                        android:id="@+id/tvTotalIce2"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:textSize="10dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_width="0dp">
+
+                    <TextView
+                        android:background="#0a85a2a7"
+                        android:gravity="center"
+                        android:id="@+id/tvTotal2"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:textSize="10dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent">
+
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_width="0dp">
+
+                    <TextView
+                        android:background="@drawable/totaltitle"
+                        android:gravity="center"
+                        android:id="@+id/tvTotalYear3"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_width="0dp">
+
+                    <TextView
+                        android:gravity="center"
+                        android:id="@+id/tvTotalLive3"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:textSize="10dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_width="0dp">
+
+                    <TextView
+                        android:gravity="center"
+                        android:id="@+id/tvTotalDead3"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:textSize="10dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_width="0dp">
+
+                    <TextView
+                        android:gravity="center"
+                        android:id="@+id/tvTotalIce3"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:textSize="10dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_width="0dp">
+
+                    <TextView
+                        android:background="#0a85a2a7"
+                        android:gravity="center"
+                        android:id="@+id/tvTotal3"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:textSize="10dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent">
+
+                <TextView
+                    android:gravity="center"
+                    android:id="@+id/tvTotalAvg"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent">
+
+                <TextView
+                    android:gravity="center"
+                    android:id="@+id/tvTotalDiff"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:textSize="20dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</layout>

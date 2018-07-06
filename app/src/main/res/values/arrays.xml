@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="eezChina">
+        <item>타망</item>
+        <item>위망</item>
+        <item>유망</item>
+        <item>오징어채낚기(우조)</item>
+        <item>일반어획물운반선</item>
+    </string-array>
+    <string-array name="eezJapan">
+        <item>공통규제</item>
+        <item>대중형선망</item>
+        <item>이서저인망</item>
+        <item>충합저인망</item>
+        <item>오징어채낚기</item>
+        <item>연승</item>
+        <item>예인조</item>
+        <item>가다랑어일본조</item>
+        <item>일본조</item>
+        <item>청새치돌봉</item>
+        <item>고정식자망</item>
+    </string-array>
+    <string-array name="eezKoChina">
+        <item>저인망류</item>
+        <item>선망</item>
+        <item>안강망</item>
+        <item>자망류</item>
+        <item>통발류</item>
+        <item>낚시류</item>
+        <item>일반어획물운반선</item>
+    </string-array>
+    <string-array name="eezKoJapan">
+        <item>꽁치봉수망</item>
+        <item>오징어채낚기</item>
+        <item>대형기선외끌이</item>
+        <item>대형기선쌍끌이</item>
+        <item>대형트롤</item>
+        <item>중형기선저인망</item>
+        <item>선망어업</item>
+        <item>선망어업 금지구역</item>
+        <item>연승어업</item>
+        <item>연승어업 금지구역</item>
+        <item>외줄낚시</item>
+        <item>복어채낚기</item>
+        <item>갈치채낚기</item>
+        <item>원양오징어채낚기</item>
+        <item>공통규제</item>
+        <item>조업수역코드</item>
+    </string-array>
+    <string-array name="eezWorld">
+        <item>일본</item>
+        <item>중국</item>
+    </string-array>
+    <string-array name="zosa">
+        <item>부산</item>
+        <item>포항</item>
+        <item>구룡포</item>
+        <item>울릉도</item>
+        <item>감포</item>
+        <item>울산</item>
+        <item>강구</item>
+        <item>영덕</item>
+        <item>후포</item>
+        <item>죽변</item>
+        <item>강릉</item>
+        <item>삼척</item>
+        <item>속초</item>
+        <item>동해</item>
+        <item>군산</item>
+        <item>보령</item>
+        <item>태안</item>
+        <item>안면도</item>
+        <item>인천</item>
+        <item>대청도</item>
+        <item>여수</item>
+        <item>고흥</item>
+        <item>거문도</item>
+        <item>목포</item>
+        <item>흑산도</item>
+        <item>진도</item>
+        <item>통영</item>
+        <item>진해</item>
+        <item>마산</item>
+        <item>거제</item>
+        <item>사천</item>
+        <item>남해</item>
+        <item>완도</item>
+        <item>제주</item>
+    </string-array>
+</resources>

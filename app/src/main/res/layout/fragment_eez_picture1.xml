@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="picture1"
+            type="com.gugu.wegolsu.k_seastem.fragment.EEZPictureFragment1" />
+    </data>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Spinner
+            android:id="@+id/spinnerEEZPic3"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/zosaspinner"
+            android:gravity="center"
+            android:textSize="100dp"
+            app:layout_constraintBottom_toTopOf="@+id/ivEEZPicture1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/spinnerEEZPic4"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/spinnerEEZPic4"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/zosaspinner"
+            android:gravity="center"
+            android:textSize="100dp"
+            app:layout_constraintBottom_toTopOf="@+id/ivEEZPicture1"
+            app:layout_constraintLeft_toRightOf="@+id/spinnerEEZPic3"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/ivEEZPicture1"
+            android:layout_width="0dp"
+            android:layout_height="400dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinnerEEZPic3" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</layout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Spinner
+            android:id="@+id/spinnerZosa"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/zosaspinner"
+            android:gravity="center"
+            android:textSize="100dp"
+            app:layout_constraintBottom_toTopOf="@+id/tvZosaone"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvZosaone"
+            android:layout_width="149dp"
+            android:layout_height="0dp"
+            android:background="@drawable/zosatitle"
+            android:gravity="center"
+            android:text="지역"
+            android:textColor="#ff205a63"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/tvSosok"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/tvZosaoneContent"
+            app:layout_constraintTop_toBottomOf="@+id/spinnerZosa" />
+
+        <TextView
+            android:id="@+id/tvSosok"
+            android:layout_width="149dp"
+            android:layout_height="0dp"
+            android:background="@drawable/zosatitle"
+            android:gravity="center"
+            android:text="소속부서"
+            android:textColor="#ff205a63"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/tvBokmu"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/tvSosokContent"
+            app:layout_constraintTop_toBottomOf="@+id/tvZosaone" />
+
+        <TextView
+            android:id="@+id/tvBokmu"
+            android:layout_width="149dp"
+            android:layout_height="0dp"
+            android:background="@drawable/zosatitle"
+            android:gravity="center"
+            android:text="복무지"
+            android:textColor="#ff205a63"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/tvBokmuContent"
+            app:layout_constraintTop_toBottomOf="@+id/tvSosok" />
+
+        <TextView
+            android:id="@+id/tvZosaoneContent"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/zosacontents"
+            android:gravity="center"
+            android:textColor="#ff3c7b84"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toTopOf="@+id/tvSosokContent"
+            app:layout_constraintLeft_toRightOf="@+id/tvZosaone"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinnerZosa" />
+
+        <TextView
+            android:id="@+id/tvSosokContent"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/zosacontents"
+            android:gravity="center"
+            android:textColor="#ff3c7b84"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toTopOf="@+id/tvBokmuContent"
+            app:layout_constraintLeft_toRightOf="@+id/tvSosok"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvZosaoneContent" />
+
+        <TextView
+            android:id="@+id/tvBokmuContent"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/zosacontents"
+            android:gravity="center"
+            android:textColor="#ff3c7b84"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/tvBokmu"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvSosokContent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</layout>
